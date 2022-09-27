@@ -54,7 +54,7 @@ func main() {
 			fmt.Println(p.born)
 		}
 
-		fmt.Println("=========")
+		fmt.Println("v4 <=========")
 
 		time.Sleep(time.Second * 3)
 	}
