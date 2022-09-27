@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cron-deployment
+  name: cron-deployment-for-sync
   labels:
-    app: cron
+    app: cron-sync
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: cron
+      app: cron-sync
 
   template:
     metadata:
       labels:
-        app: cron
+        app: cron-sync
     spec:
       containers:
-        - name: cron-container
+        - name: cron-container-sync
           image: ravirafay/cron:v7
           
