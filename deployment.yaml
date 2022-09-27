@@ -17,4 +17,5 @@ spec:
     spec:
       containers:
         - name: cron-container
-          image: ravirafay/cron:v4
+          image: ravirafay/cron:v5
+          
