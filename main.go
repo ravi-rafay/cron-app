@@ -54,7 +54,7 @@ func main() {
 			fmt.Println(p.born)
 		}
 
-		fmt.Println("v6 <=========")
+		fmt.Println("v7 <=========")
 
 		time.Sleep(time.Second * 3)
 	}
